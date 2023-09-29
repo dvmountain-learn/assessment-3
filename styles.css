@@ -36,3 +36,94 @@ input {
 img {
 	max-width: 300px;
 }
+
+/* Adding New Styles */
+
+.bulleted li {
+	padding: 5px 0;
+}
+
+#refer {
+	display: flex;
+}
+
+#refer > input {
+	padding: 5px 0;
+	margin: 0 10px;
+}
+
+.data-info {
+	width: 100%;
+	height: 100%;
+	border: solid lightcyan .5px;
+	margin-top: 50px;
+	border-radius: 5px;
+}
+
+#title {
+	font-size: 25px;
+	margin-left: 20px;
+	margin-top: 15px;
+	color: blue;
+	text-decoration: underline;
+}
+
+#subtitle {
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 20px;
+}
+
+#desc {
+	font-style: italic;
+	font-size: 15px;
+	font-weight: 300;
+	margin: 0 10px 20px 10px;
+}
+
+.prep {
+	margin: 0 10px 20px 20px;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.colors {
+	margin: 30px;
+}
+
+.buttons {
+	height: 35px;
+	border-radius: 3px;
+	border: solid gray 0.5px;
+}
+
+/* Park */
+.header-park {
+	text-align: center;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	background: white;
+}
+
+.content {
+	padding: 30px;
+}
+
+.image-park {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+a.link-park {
+	color: hwb(240 29% 0%);
+	text-decoration: none;
+}
+
+a:hover.link-park {
+	color: red;
+	font-weight: bold;
+}
