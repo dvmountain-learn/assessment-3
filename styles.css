@@ -52,6 +52,26 @@ img {
 	margin: 0 10px;
 }
 
+#search {
+	margin-top: 40px;
+}
+
+#search-form {
+	display: flex;
+	justify-content: end;
+}
+
+#search-form > input {
+	height: 25px;
+	border-radius: 3px;
+	border: solid lightgray .5px;
+}
+
+#search-form > #button-go {
+	height: 28px;
+	cursor: pointer;
+}
+
 .data-info {
 	width: 100%;
 	height: 100%;
@@ -126,4 +146,11 @@ a.link-park {
 a:hover.link-park {
 	color: red;
 	font-weight: bold;
+}
+
+span#show-park {
+	font-size: 18px;
+	font-weight: 900;
+	font-style: italic;
+	color: red;
 }

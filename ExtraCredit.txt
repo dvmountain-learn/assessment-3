@@ -1,0 +1,10 @@
+Extra Credit:
+1) I try to create link in home page (park.html)
+2) park.html include some tags element but I try to copy & past resource from google
+3) When you go through the web page park.html, you see a simple website include button recommend local park 
+4) You can find local park name by press on button 'Recommend'
+5) I followed resource that you provided with a random (Javascript)
+
+Note: 
+    - part.html 
+    - park.js
